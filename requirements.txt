@@ -1,4 +1,4 @@
 gspread
 pandas
-ServiceAccountCredentials
+oauth2client.service_account
 datetime
