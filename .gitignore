@@ -1,0 +1,8 @@
+# 🔒 セキュリティ：認証鍵を絶対にGitに入れない
+credentials.json
+*.json
+
+# 仮想環境やキャッシュなど（あれば）
+__pycache__/
+.venv/
+my-EC-management-automation-project/
