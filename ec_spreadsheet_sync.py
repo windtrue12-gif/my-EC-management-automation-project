@@ -16,7 +16,7 @@ scope = [
 creds = ServiceAccountCredentials.from_json_keyfile_name('credentials.json', scope)
 gc = gspread.authorize(creds)
 
-# ふうちゃんが作ったスプレッドシートを開く
+# 作ったスプレッドシートを開く
 # ※もし名前を別にした場合は、ここを実際のスプレッドシート名に変えてね！
 spreadsheet_name = "EC一元管理テスト"
 sh = gc.open(spreadsheet_name)
